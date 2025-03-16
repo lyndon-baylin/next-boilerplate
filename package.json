@@ -1,6 +1,6 @@
 {
     "name": "next-boilerplate",
-    "description": "A boilerplate for NextJS project with minimal setup to get started",
+    "description": "An opinionated boilerplate for NextJS project with minimal setup to get started",
     "version": "0.1.0",
     "author": "lyndon-baylin (https://github.com/lyndon-baylin)",
     "private": true,
