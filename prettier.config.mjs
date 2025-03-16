@@ -28,6 +28,7 @@ const prettierConfig = {
     '<TYPES>^[.]',
     '<BUILTIN_MODULES>',
     '<THIRD_PARTY_MODULES>',
+    '^@/components/(.*)$',
     '^@/lib/(.*)$',
     '^@/providers/(.*)$',
     '^@/types/(.*)$',
