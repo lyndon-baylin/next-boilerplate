@@ -1,6 +1,8 @@
 import type { NextConfig } from 'next';
 
 const nextConfig: NextConfig = {
+  // Enable React strict mode
+  reactStrictMode: true,
   eslint: {
     /**
      * Disable linting during production builds
