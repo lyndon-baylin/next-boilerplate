@@ -1,0 +1,30 @@
+# dependencies
+node_modules
+package-lock.json
+yarn.lock
+
+# github
+.git
+
+# build
+build/
+dist
+out/
+
+# test
+coverage
+html
+
+# environment
+.env
+
+# config rules
+.eslintignore
+.gitignore
+
+# documentation
+LICENSE
+
+# others
+/.next
+/.husky
