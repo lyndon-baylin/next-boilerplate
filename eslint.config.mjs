@@ -35,6 +35,7 @@ const eslintConfig = [
       'coverage',
     ],
   },
+  ...tailwind.configs['flat/recommended'],
   ...compat.extends('next', 'next/core-web-vitals', 'prettier'),
   {
     plugins: {
@@ -132,7 +133,6 @@ const eslintConfig = [
       ...nextPlugin.configs['core-web-vitals'].rules,
     },
   },
-  ...tailwind.configs['flat/recommended'],
 ];
 
 export default eslintConfig;
