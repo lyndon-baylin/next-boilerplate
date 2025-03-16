@@ -5,7 +5,14 @@ export default function Home() {
     <div className="grid min-h-screen grid-rows-[20px_1fr_20px] place-items-center gap-16 p-8 pb-20 font-[family-name:var(--font-geist-sans)] sm:p-20">
       <main className="row-start-2 flex flex-col items-center gap-8 sm:items-start">
         <div className="flex items-baseline space-x-3">
-          <Image className="h-auto w-[11.25rem] dark:invert" src="/next.svg" alt="Next.js logo" width={0} height={0} />
+          <Image
+            className="h-auto w-[11.25rem] dark:invert"
+            src="/next.svg"
+            alt="Next.js logo"
+            width={0}
+            height={0}
+            priority={true}
+          />
           <span className="text-4xl font-semibold tracking-wide text-sky-500">Boilerplate</span>
         </div>
         <ol className="list-inside list-decimal text-center font-[family-name:var(--font-geist-mono)] text-sm sm:text-left">
