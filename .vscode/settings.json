@@ -77,7 +77,7 @@
     "javascript.format.enable": false,
     "javascript.preferences.importModuleSpecifier": "non-relative",
     "javascript.updateImportsOnFileMove.enabled": "always",
-    "prettier.configPath": "./.prettierrc.cjs",
+    "prettier.configPath": "./prettier.config.mjs",
     "todohighlight.isCaseSensitive": true,
     "todohighlight.isEnable": true,
     "todohighlight.keywords": [
