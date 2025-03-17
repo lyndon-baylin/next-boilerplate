@@ -78,6 +78,9 @@
     "javascript.preferences.importModuleSpecifier": "non-relative",
     "javascript.updateImportsOnFileMove.enabled": "always",
     "prettier.configPath": "./prettier.config.mjs",
+    "search.exclude": {
+        "package-lock.json": true
+    },
     "todohighlight.isCaseSensitive": true,
     "todohighlight.isEnable": true,
     "todohighlight.keywords": [
