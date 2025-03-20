@@ -92,7 +92,7 @@ Open the `http://localhost:3000` with the browser of your choice to see your pro
 In order to help enforce a consistent commit convention in your project just follow this pattern, where the keyword `chore` is an enum-type [rule](https://commitlint.js.org/reference/rules.html).
 
 ```shell
-git commit -m "chore: initial state"
+git commit -m "chore: initial commit"
 ```
 
 Below is the list of enum-type rule and its description
