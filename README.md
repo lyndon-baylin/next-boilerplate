@@ -23,6 +23,7 @@ Developer experience first, flexible code structure and only keep what you need:
 - 🌏 [Axios](https://axios-http.com/) a promise-based HTTP-client for `node.js` and the `browser` for data fetching
 - 🛸 [Tanstack-query](https://tanstack.com/) to make data `fetching`, `caching`, `synchronizing` and `updating` server state in your web applications a breeze
 - 🎈 [Sonner](https://sonner.emilkowal.ski/) an opinionated toast component for React
+- 🌀 [Lucide](https://lucide.dev/) Beautiful & consistent scalable icon
 
 Built-in feature from Next.js:
 
