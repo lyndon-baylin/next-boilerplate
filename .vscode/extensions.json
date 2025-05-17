@@ -1,0 +1,17 @@
+{
+    "recommendations": [
+        "dbaeumer.vscode-eslint",
+        "mikestead.dotenv",
+        "bradlc.vscode-tailwindcss",
+        "usernamehw.errorlens",
+        "esbenp.prettier-vscode",
+        "DavidAnson.vscode-markdownlint",
+        "YoavBls.pretty-ts-errors",
+        "mattpocock.ts-error-translator",
+        "ms-vscode.vscode-typescript-next",
+        "EditorConfig.EditorConfig",
+        "aaron-bond.better-comments",
+        "vscode-icons-team.vscode-icons",
+        "zhuangtongfa.material-theme"
+    ]
+}
