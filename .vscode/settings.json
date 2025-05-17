@@ -28,7 +28,8 @@
         "source.fixAll": "explicit",
         "source.fixAll.eslint": "explicit",
         "source.organizeImports": "always",
-        "source.fixAll.markdownlint": "always"
+        "source.fixAll.markdownlint": "always",
+        "source.addMissingImports": "always"
     },
     "editor.cursorBlinking": "phase",
     "editor.cursorSmoothCaretAnimation": "explicit",
@@ -75,7 +76,7 @@
 
     "files.insertFinalNewline": true,
     "javascript.format.enable": false,
-    "javascript.preferences.importModuleSpecifier": "non-relative",
+    "javascript.preferences.importModuleSpecifier": "shortest",
     "javascript.updateImportsOnFileMove.enabled": "always",
     "prettier.configPath": "./prettier.config.mjs",
     "search.exclude": {
@@ -91,8 +92,18 @@
             "backgroundColor": "rgba(39, 153, 245, 0.8)"
         }
     ],
-    "typescript.preferences.importModuleSpecifier": "non-relative",
+    "typescript.preferences.importModuleSpecifier": "shortest",
+    // Use the workspace version of TypeScript
     "typescript.tsdk": "node_modules/typescript/lib",
     "typescript.updateImportsOnFileMove.enabled": "always",
+    // For security reasons it's require that users opt into using the workspace version of typescript
+    "typescript.enablePromptUseWorkspaceTsdk": true,
+    "typescript.preferences.autoImportFileExcludePatterns": [
+        // useRouter should be imported from `next/navigation` instead of `next/router`
+        "next/router.d.ts",
+        "next/dist/client/router.d.ts"
+    ],
+    // Prefer type-only imports
+    "typescript.preferences.preferTypeOnlyAutoImports": true,
     "workbench.colorTheme": "One Dark Pro Flat"
 }
